@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #54c3ef;
+}
+#heading{
+    font-family: 'Caveat Brush', cursive;
+    color: #fad744;
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-shadow: #2b3252 5px 5px 5px ;
+    cursor: pointer;
+}
+
+#QuizSection{
+   text-align: left;
+   background-color: #2b3252;
+   color: #fad744;
+   width: 40%;
+   margin: 0 auto;
+   height: 100%;
+   padding: 20px ;
+   margin-bottom: 25px;
+   border-radius: 10px;
+}
+#scoreCard {
+    box-sizing: border-box;
+    background-color: #fff;
+    display: inline-block;
+    width: 10%;
+    height: 25vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    position: sticky;
+    z-index: 1;
+    left: 70vw;
+    bottom: 57vh;
+}
+#quiz-wrapper {
+    color: #fad744;
+    margin: 15px 10px;
+    padding: 15px;
+}
+hr{
+    border-bottom: 1px solid #fad744;
+}
+h3{
+    margin: 25px 0;
+}
+
+input{
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+label{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#Button {
+    padding: 10px 15px;
+    background-color: #fad744;
+    color: #2b3252;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2% 4% 2% 40%;
+}
+#Button:hover{
+    color: #54c3ef;
+    background-color: yellow;
+    transition: all ease .5s;
+    box-shadow: 2px 2px 2px grey;
+}
